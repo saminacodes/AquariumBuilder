@@ -1,2 +1,3 @@
 # AquariumBuilder
-Temporary Placeholder Description
+An aquarium builder website for both novice and experienced fish keepers. 
+
