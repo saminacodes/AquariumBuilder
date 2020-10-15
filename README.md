@@ -5,6 +5,8 @@ An aquarium builder website for both novice and experienced fish keepers.
     <li> Select from compatible Fish and Plants </li>
     <li> Recieve printable generated guides from selections</li>
     <li> "Preview" your tank feature </li>
+    <li> List out food and other supplies required </li>
+    <li> Calculate recommended maintenance days </li>
 </ul>
 
 Created by @saminacodes
