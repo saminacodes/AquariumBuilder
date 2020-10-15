@@ -5,31 +5,31 @@ body {
 }
 
 /*text styles*/
+h1, h2, h4 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+}
+
+label {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 h1 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     text-align: center;
-}
-
-h2 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-h4 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /*grid style*/
 
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
-form input[type="radio"] {
-    display: inline-block;    
+.flex-container {
+    display: flex;
 }
 
 /*style the modal*/
