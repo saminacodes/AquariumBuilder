@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Aquarium Builder</title>
+
+    <!--Added CSS Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--Added Javascript-->
+    <script src="converter.js"></script>
 </head>
 <body>
     <h1>Welcome to Aquarium Builder</h1>
     <div class = "grid-container">
+        <div>
+            <div>
+                <div class = "build">
+                    <h2>Environment</h2>
 
-        <div class = "build">
-            <!--Enter code for the converter here-->
-            <h2>Environment</h2>
+                    <h4>Water</h4>
+                        <input type="radio" id="freshWater" name="water" value="fresh">
+                        <label for="male">Fresh Water</label><br>
 
-            <h4>Water</h4>
+                        <input type="radio" id="saltWater" name="water" value="salt">
+                        <label for="male">Salt Water</label><br>
 
-            <h4>Gallons</h4>
-            
+                    <h4>Gallons</h4>
+
+                    <!--insert code for the converter here-->
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Open Modal</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <input type="text" id="fname" name="fname">
+                        <p>x</p>
+                        <input type="text" id="fname" name="fname">
+                        <p>x</p>
+                        <input type="text" id="fname" name="fname">
+                        <p>x</p>
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class = "selections">
-            <h3>Selections</h3>
-            <!--Enter code for the selections here-->
-            <h4>Fish</h4>
+        <div>
+            <div class = "selections">
+                <h2>Selections</h2>
+                <!--Enter code for the selections here-->
+                <h4>Fish</h4> 
 
-            <h4>Plants</h4>
+                <h4>Plants</h4>
+            </div>
         </div>
+
     </div>
 </body>
 </html>
