@@ -1,36 +1,23 @@
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-
+/*declare variables*/
 var length, width, height;
 
+/*take input from HTML*/
 
+length = document.getElementById("length").value;
+width = document.getElementById("width").value;
+height = document.getElementById("height").value;
+
+var output = toGallons(length, width, height);
+console.log("Output " + output);
 
 function toGallons(length, width, height) {
-    var volume = length * width * height;
-    return volume;
+    var volume, gallons;
+
+    volume = length * width * height;
+    gallons = volume / 231;
+
+    return gallons;
 }
+
 
