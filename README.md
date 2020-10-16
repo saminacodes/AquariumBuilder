@@ -9,7 +9,7 @@ An aquarium builder website for both novice and experienced fish keepers.
     <li> Calculate recommended maintenance days </li>
 </ul>
 
-Credits:
+Credits:<br>
 @swordskies - illustrator <br>
 @saminacodes - programmer <br>
 @br0sar - researcher <br>
