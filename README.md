@@ -10,7 +10,7 @@ An aquarium builder website for both novice and experienced fish keepers.
 </ul>
 
 Credits:
-@swordskies - illustrator
-@saminacodes - programmer
-@brooke - researcher
+@swordskies - illustrator <br>
+@saminacodes - programmer <br>
+@br0sar - researcher <br>
 
